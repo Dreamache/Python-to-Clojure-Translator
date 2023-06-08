@@ -8,8 +8,8 @@ Descrição do Sistema:
 O código fornece funções para converter expressões matemáticas escritas em Python para a linguagem Clojure. Ele consiste em três principais componentes: lexer, parser e translate.
 
 Requisitos Funcionais:
-2.1. Lexer:
 
+2.1. Lexer:
 O lexer deve receber uma expressão matemática escrita em Python como entrada.
 Ele deve dividir a expressão em tokens, identificando números, variáveis e operadores.
 Os tokens devem ser retornados na forma de uma lista.
@@ -40,8 +40,8 @@ O código tem como objetivo converter expressões lógicas escritas em Python pa
 Ele utiliza a biblioteca padrão 'ast' do Python para analisar a sintaxe da expressão e construir uma representação equivalente em Clojure.
 
 Requisitos Funcionais:
-2.1. translate_expression:
 
+2.1. translate_expression:
 A função translate_expression deve receber um nó da árvore sintática abstrata (AST) do Python como entrada.
 Ela deve percorrer a AST e traduzir o nó para a representação equivalente em Clojure.
 A expressão traduzida em Clojure deve ser retornada como uma string.
